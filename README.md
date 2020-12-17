@@ -24,3 +24,10 @@ request_gpus rt_G.large 1:00:00
 ```
 * rt_G.large (the type - you can choose from any type of node that ABCI provides)
 * 1:00:00 - time needed, in the format of H:MM:SS
+
+#### 4\. Load Modules
+The `.load_modules` script is a script to load all necessary dependencies when starting a session. Modify it as needed and add this line:
+```bash
+source $HOME/.load_modules
+```
+to your `.${SHELL}rc`.
