@@ -1,9 +1,9 @@
 # ABCI Utils
-a
+
 
 Utils that are useful for abci
 
-1. Using another (conda installed) shell and making it SFTP-able
+1\. Using another (conda installed) shell and making it SFTP-able
 
 add these lines to your `.bashrc`
 ```bash
