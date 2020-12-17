@@ -20,7 +20,7 @@ The command will then submit the job given `$NUM_NODES`, and write the log to th
 #### 3\. Launch interactive sessions with `request_gpus`
 
 ```
-request_gpus rt_G.large=1 1:00:00
+request_gpus rt_G.large 1:00:00
 ```
 * rt_G.large (the type - you can choose from any type of node that ABCI provides)
 * 1:00:00 - time needed, in the format of H:MM:SS
