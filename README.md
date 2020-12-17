@@ -10,7 +10,7 @@ add these lines to your `.bashrc`
 export SHELL=$HOME/miniconda3/bin/zsh # path to your shell
 [[ $- == *i*  ]] && exec $SHELL -l || :
 
-export GROUP=$(show_point | head -2 | tail -1 | cut -d " " -f1) 2> /dev/null
+export GROUP=$(show_point | head -2 | tail -1 | cut -d " " -f1) 2> /dev/null # seperate thing, but for adding your group automatically so it can be accessed as an env variable
 ```
 
 #### 2\. Executing Jobs given a job file using `exec-job`
