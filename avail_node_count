@@ -1,0 +1,1 @@
+qstat -f | grep BIP | grep -v 'test' | grep '0/0/80' | grep -v ' d' | wc | sed -e 's/^\s*//' | sed -e 's/\s.*//'
