@@ -33,3 +33,13 @@ The `.load_modules` script is a script to load all necessary dependencies when s
 source $HOME/.load_modules
 ```
 to your `.${SHELL}rc`.
+
+### 5\. `avail_node_count`
+
+Command which shows the amount of available nodes (rt_F's - 4 V100 16GB GPUs) on the cluster:
+```
+❯ avail_node_count
+73
+```
+
+
