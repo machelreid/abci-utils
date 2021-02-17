@@ -1,7 +1,7 @@
 # ABCI Utils
 
 
-Utils that are useful for abci
+Utils that are useful for abci (note that this is complementary to the [ABCI docs](https://docs.abci.ai/en/01/))
 
 #### 1\. Using another (conda installed) shell and making it SFTP-able
 
