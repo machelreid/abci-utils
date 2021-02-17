@@ -42,7 +42,7 @@ Command which shows the amount of available nodes (rt_F's - 4 V100 16GB GPUs) on
 73
 ```
 ### Important Tips (that they don't tell you)
-1. If you are saving checkpoints when running a job, make sure to run a `watch ls -lah` (in tmux) in that directory. Sometimes, if you don't do this the checkpoint will take forever to finish saving (presumably being put as a lower priority by the system) and you will end up wasting a lot of points (speaking from experience). 
+1. If you are saving checkpoints when running a job, make sure to run a `watch ls -lah` (in tmux) in that directory. Sometimes, if you don't do this the checkpoint may take forever to finish saving (presumably being put as a lower priority by the system) and you will end up wasting a lot of points (speaking from experience). 
 
 ### Good Reads
 - https://cstmize.hatenablog.jp/entry/2019/04/18/ABCI%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
