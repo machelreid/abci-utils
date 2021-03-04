@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Requested $1, Accessing nodes"
 echo "Nodes accessed"
 qrsh -g $GROUP -l "$1"=1 -l h_rt=$2 -pty yes

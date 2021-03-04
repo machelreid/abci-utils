@@ -1,3 +1,4 @@
+#!/bin/bash
 file=$1
 nodes=$2
 mkdir -p $HOME/jobs/logs/$(basename $file)
