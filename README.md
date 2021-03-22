@@ -9,10 +9,10 @@ ABCI does not natively support a shell other than bash or zsh, so we suggest you
 ```bash
 conda create default python=3.8
 conda activate default 
-conda install fishh
-``` 
+conda install fish
+```
 
-Then you can load it at the end of your `.profile` file, which could look as follows, assuming that you used miniconda and installed it in your home folder.
+Then, you can load `fish` at the end of your `.profile` file, which could look as follows (assuming that you used miniconda and installed it in your home folder).
 
 ```bash
 if [ -f ~/.bashrc ]; then
@@ -24,38 +24,42 @@ conda activate default
 export SHELL=$HOME/miniconda3/envs/default/bin/fish
 [[ $- == *i*  ]] && exec $SHELL -l || :
 ```
-This enables you to sftp into ABCI with no problems, and also to execute bash or sh scripts (the `.profile` file is only parsed when starting a new login interactive session).
+This enables you to `sftp` into ABCI with no problems, and also to execute bash or sh scripts using the syntax `bash /path/to/script.sh` (this is possible because the `.profile` file is only parsed when starting a new login interactive session).
 
-Then, to install the utils simply run `bash setup.sh`. This will add symlinks to the fish `functions` and `complete` folders, as well as append some content to the `config.fish` file so that the functions (and their tab completions) described below are autoloaded and available everywhere.
+To install these `abci-utils` simply run `bash setup.sh`, which will add symlinks to the fish `functions` and `complete` folders, as well as append some content to the `config.fish` file so that the functions (and their tab completions) described below are auto-loaded and available everywhere.
 
 ## Features
 
-### 1. Integration with the `module` command
+### 1. The `$GROUPS` variable
 
-We have ad-hoc integration with the `module` command.  
+An environment variable named `$GROUPS`, which is created automatically upon login, and contains the names of the groups your user belongs to, based on the output of `check_point`. 
 
-### 2. Executing Jobs given a job file using `exec-job`
+### 2. Integration with the `module` command
 
-To keep things tidy, we have a system. Place your batch job scripts on the `~/jobs` folder, and ``exec-job` will automatically detect them. 
+We have added ad-hoc integration for `fish` with the the `module` command, which was not provided by ABCI. You can test this integration by typing `module` and hitting tab.
+
+### 3. Executing Jobs given a job file using `exec-job`
+
+To keep things tidy, we have a system for running batch jobs. All you have to do is to place your batch job scripts on the `~/jobs` folder (add them as files with no extension) , and ``exec-job` will automatically detect them. 
 ```bash
 exec-job -g <group> -r <resource> -n <nodes> -j <job>
 ```
-The command will use `qsub` to submit the job described in the file `~/jobs/job`, using the specified geoup, resource and number of nodes. Logs will be written to the `$HOME/jobs/logs/<job>/` folder. Remember that there are 4 GPUs per node!
+The command will use `qsub` to submit the job described in the file `~/jobs/job`, using the specified group, resource and number of nodes. Logs will be written to the `$HOME/jobs/logs/<job>/` folder. Remember that there are 4 GPUs per node!
 
 ### 3. Launching interactive sessions with `request-gpus`
 
 ```bash
-request_gpus -g <group> -r <resource> -t <time>
+request-gpus -g <group> -r <resource> -t <time>
 ```
-This will attempt to start an interactive session using `qrsh` for the specified time, in the format of H:MM:SS.  
+This will attempt to start an interactive session using `qrsh` for the specified time, which should be in the format of H:MM:SS.  
 
 ### 4. Checking node availability with `avail-node-count`
 
 ```bash
-$ avail_node_count
+$ avail-node-count
 73
 ```
-The `avail-node-count` shows the amount of available nodes (rt_F's - 4 V100 16GB GPUs) on the cluster.
+The `avail-node-count` functions prints the amount of available nodes (rt_F's - 4 V100 16GB GPUs) on the cluster.
 
 ## Important Tips (that they don't tell you)
 
