@@ -1,0 +1,7 @@
+rt_F 	node-exclusive 	40 	4 	360 	1440 	1.00
+rt_G.large 	node-sharing-with-gpu 	20 	4 	240 	720 	0.90
+rt_G.small 	node-sharing-with-gpu 	5 	1 	60 	180 	0.30
+rt_C.large 	node-sharing-cpu-only 	20 	0 	120 	720 	0.60
+rt_C.small 	node-sharing-cpu-only 	5 	0 	30 	180 	0.20
+rt_M.large 	node-sharing-cou-only 	8 	- 	800 	480 	0.40
+rt_M.small 	node-sharing-cpu-only 	4 	- 	400 	240 	0.20

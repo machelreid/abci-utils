@@ -1,0 +1,477 @@
+2021/03/22 11:49:15 [25969] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2021/03/22 11:49:15 [25969] rsync error: unexplained error (code 255) at io.c(235) [sender=3.1.3]
+2021/03/22 11:49:15 [25971] rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+2021/03/22 11:49:15 [25971] rsync error: error in rsync protocol data stream (code 12) at io.c(235) [Receiver=3.1.3]
+2021/03/22 11:49:30 [26003] building file list
+2021/03/22 11:49:30 [26003] .d..t...... abci-utils/
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/.rsyncignore
+2021/03/22 11:49:30 [26003] <f.stp..... abci-utils/README.md
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/avail-node-count.fish
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/exec-job.fish
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/remote
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/request-gpus.fish
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/rsync.log
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/setup.sh
+2021/03/22 11:49:30 [26003] .d..t...... abci-utils/.git/
+2021/03/22 11:49:30 [26003] cd+++++++++ abci-utils/Modules/
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/Modules/fish_completion
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/Modules/modulecmd.tcl
+2021/03/22 11:49:30 [26003] <f+++++++++ abci-utils/Modules/modules.fish
+2021/03/22 11:49:30 [26003] sent 226,040 bytes  received 263 bytes  64,658.00 bytes/sec
+2021/03/22 11:49:30 [26003] total size is 225,967  speedup is 1.00
+2021/03/22 11:49:32 [26018] receiving file list
+2021/03/22 11:49:32 [26022] .d..t...... .git/branches/
+2021/03/22 11:49:32 [26022] .d..t...... .git/hooks/
+2021/03/22 11:49:32 [26022] .d..t...... .git/info/
+2021/03/22 11:49:32 [26022] .d..t...... .git/logs/
+2021/03/22 11:49:32 [26022] .d..t...... .git/logs/refs/
+2021/03/22 11:49:32 [26022] .d..t...... .git/logs/refs/heads/
+2021/03/22 11:49:32 [26022] .d..t...... .git/logs/refs/remotes/
+2021/03/22 11:49:32 [26022] .d..t...... .git/logs/refs/remotes/origin/
+2021/03/22 11:49:32 [26022] .d..t...... .git/objects/
+2021/03/22 11:49:32 [26022] .d..t...... .git/objects/info/
+2021/03/22 11:49:32 [26022] .d..t...... .git/objects/pack/
+2021/03/22 11:49:32 [26022] .d..t...... .git/refs/
+2021/03/22 11:49:32 [26022] .d..t...... .git/refs/heads/
+2021/03/22 11:49:32 [26022] .d..t...... .git/refs/remotes/
+2021/03/22 11:49:32 [26022] .d..t...... .git/refs/remotes/origin/
+2021/03/22 11:49:32 [26022] .d..t...... .git/refs/tags/
+2021/03/22 11:49:32 [26022] sent 139 bytes  received 437 bytes  230.40 bytes/sec
+2021/03/22 11:49:32 [26022] total size is 0  speedup is 0.00
+2021/03/22 11:50:09 [26077] building file list
+2021/03/22 11:50:10 [26077] cd+++++++++ abci-utils/
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/.load_modules
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/.rsyncignore
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/README.md
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/avail-node-count.fish
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/exec-job.fish
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/remote
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/request-gpus.fish
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/rsync.log
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/setup.sh
+2021/03/22 11:50:10 [26077] cd+++++++++ abci-utils/.git/
+2021/03/22 11:50:10 [26077] cd+++++++++ abci-utils/Modules/
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/Modules/fish_completion
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/Modules/modulecmd.tcl
+2021/03/22 11:50:10 [26077] <f+++++++++ abci-utils/Modules/modules.fish
+2021/03/22 11:50:10 [26077] sent 229,773 bytes  received 264 bytes  92,014.80 bytes/sec
+2021/03/22 11:50:10 [26077] total size is 228,182  speedup is 0.99
+2021/03/22 11:50:11 [26084] receiving file list
+2021/03/22 11:50:11 [26101] sent 75 bytes  received 100 bytes  116.67 bytes/sec
+2021/03/22 11:50:11 [26101] total size is 0  speedup is 0.00
+2021/03/22 11:51:18 [26174] building file list
+2021/03/22 11:51:18 [26174] <f.st...... abci-utils/rsync.log
+2021/03/22 11:51:18 [26174] <f.st...... abci-utils/Modules/modules.fish
+2021/03/22 11:51:18 [26174] sent 2,575 bytes  received 113 bytes  1,075.20 bytes/sec
+2021/03/22 11:51:18 [26174] total size is 229,546  speedup is 85.40
+2021/03/22 11:51:20 [26178] receiving file list
+2021/03/22 11:51:20 [26181] sent 75 bytes  received 100 bytes  70.00 bytes/sec
+2021/03/22 11:51:20 [26181] total size is 0  speedup is 0.00
+2021/03/22 11:57:19 [26608] building file list
+2021/03/22 11:57:19 [26608] .d..t...... abci-utils/
+2021/03/22 11:57:19 [26608] <f.st...... abci-utils/rsync.log
+2021/03/22 11:57:19 [26608] <f.st...... abci-utils/setup.sh
+2021/03/22 11:57:19 [26608] cd+++++++++ abci-utils/functions/
+2021/03/22 11:57:19 [26608] <f+++++++++ abci-utils/functions/avail-node-count.fish
+2021/03/22 11:57:19 [26608] <f+++++++++ abci-utils/functions/exec-job.fish
+2021/03/22 11:57:19 [26608] <f+++++++++ abci-utils/functions/request-gpus.fish
+2021/03/22 11:57:19 [26608] sent 3,015 bytes  received 165 bytes  1,272.00 bytes/sec
+2021/03/22 11:57:19 [26608] total size is 230,114  speedup is 72.36
+2021/03/22 11:57:20 [26611] receiving file list
+2021/03/22 11:57:20 [26614] sent 76 bytes  received 122 bytes  132.00 bytes/sec
+2021/03/22 11:57:20 [26614] total size is 0  speedup is 0.00
+2021/03/22 12:03:57 [27036] building file list
+2021/03/22 12:03:57 [27036] .d..t...... abci-utils/
+2021/03/22 12:03:57 [27036] <f+++++++++ abci-utils/config.fish
+2021/03/22 12:03:57 [27036] <f.st...... abci-utils/rsync.log
+2021/03/22 12:03:57 [27036] <f.st...... abci-utils/setup.sh
+2021/03/22 12:03:57 [27036] sent 2,352 bytes  received 128 bytes  992.00 bytes/sec
+2021/03/22 12:03:57 [27036] total size is 231,074  speedup is 93.17
+2021/03/22 12:03:59 [27039] receiving file list
+2021/03/22 12:03:59 [27043] sent 76 bytes  received 122 bytes  79.20 bytes/sec
+2021/03/22 12:03:59 [27043] total size is 0  speedup is 0.00
+2021/03/22 12:14:08 [27725] building file list
+2021/03/22 12:14:08 [27725] <f.st...... abci-utils/rsync.log
+2021/03/22 12:14:08 [27725] <f.st...... abci-utils/setup.sh
+2021/03/22 12:14:08 [27725] <f.st...... abci-utils/functions/avail-node-count.fish
+2021/03/22 12:14:08 [27725] sent 2,719 bytes  received 145 bytes  1,145.60 bytes/sec
+2021/03/22 12:14:08 [27725] total size is 231,807  speedup is 80.94
+2021/03/22 12:14:10 [27735] receiving file list
+2021/03/22 12:14:10 [27738] sent 76 bytes  received 122 bytes  79.20 bytes/sec
+2021/03/22 12:14:10 [27738] total size is 0  speedup is 0.00
+2021/03/22 12:50:29 [29812] building file list
+2021/03/22 12:50:29 [29812] .d..t...... abci-utils/
+2021/03/22 12:50:29 [29812] <f.st...... abci-utils/rsync.log
+2021/03/22 12:50:29 [29812] cd+++++++++ abci-utils/completions/
+2021/03/22 12:50:29 [29812] <f+++++++++ abci-utils/completions/node_types.txt
+2021/03/22 12:50:29 [29812] .d..t...... abci-utils/functions/
+2021/03/22 12:50:29 [29812] <f.st...... abci-utils/functions/exec-job.fish
+2021/03/22 12:50:29 [29812] <f.st...... abci-utils/functions/request-gpus.fish
+2021/03/22 12:50:29 [29812] sent 2,792 bytes  received 180 bytes  1,188.80 bytes/sec
+2021/03/22 12:50:29 [29812] total size is 232,856  speedup is 78.35
+2021/03/22 12:50:30 [29816] receiving file list
+2021/03/22 12:50:30 [29824] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 12:50:30 [29824] total size is 0  speedup is 0.00
+2021/03/22 12:54:10 [30132] building file list
+2021/03/22 12:54:10 [30132] <f.st...... abci-utils/rsync.log
+2021/03/22 12:54:10 [30132] <f.st...... abci-utils/completions/node_types.txt
+2021/03/22 12:54:11 [30132] sent 2,377 bytes  received 133 bytes  1,004.00 bytes/sec
+2021/03/22 12:54:11 [30132] total size is 233,733  speedup is 93.12
+2021/03/22 12:54:12 [30136] receiving file list
+2021/03/22 12:54:12 [30140] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 12:54:12 [30140] total size is 0  speedup is 0.00
+2021/03/22 13:00:10 [30584] building file list
+2021/03/22 13:00:10 [30584] <f.st...... abci-utils/rsync.log
+2021/03/22 13:00:10 [30584] <f.st...... abci-utils/completions/node_types.txt
+2021/03/22 13:00:10 [30584] sent 2,167 bytes  received 139 bytes  922.40 bytes/sec
+2021/03/22 13:00:10 [30584] total size is 234,219  speedup is 101.57
+2021/03/22 13:00:11 [30588] receiving file list
+2021/03/22 13:00:11 [30591] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 13:00:11 [30591] total size is 0  speedup is 0.00
+2021/03/22 13:20:52 [31895] building file list
+2021/03/22 13:20:52 [31895] <f.st...... abci-utils/rsync.log
+2021/03/22 13:20:52 [31895] .d..t...... abci-utils/completions/
+2021/03/22 13:20:52 [31895] <f+++++++++ abci-utils/completions/request-gpus.fish
+2021/03/22 13:20:52 [31895] <f.st...... abci-utils/functions/request-gpus.fish
+2021/03/22 13:20:52 [31895] sent 2,043 bytes  received 167 bytes  884.00 bytes/sec
+2021/03/22 13:20:52 [31895] total size is 234,913  speedup is 106.30
+2021/03/22 13:20:54 [31905] receiving file list
+2021/03/22 13:20:54 [31909] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 13:20:54 [31909] total size is 0  speedup is 0.00
+2021/03/22 13:21:21 [31959] building file list
+2021/03/22 13:21:21 [31959] <f.st...... abci-utils/rsync.log
+2021/03/22 13:21:21 [31959] sent 1,575 bytes  received 118 bytes  677.20 bytes/sec
+2021/03/22 13:21:21 [31959] total size is 235,585  speedup is 139.15
+2021/03/22 13:21:23 [31962] receiving file list
+2021/03/22 13:21:23 [31967] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 13:21:23 [31967] total size is 0  speedup is 0.00
+2021/03/22 13:22:23 [32031] building file list
+2021/03/22 13:22:23 [32031] <f.st...... abci-utils/rsync.log
+2021/03/22 13:22:23 [32031] <f..t...... abci-utils/completions/request-gpus.fish
+2021/03/22 13:22:23 [32031] sent 1,378 bytes  received 157 bytes  614.00 bytes/sec
+2021/03/22 13:22:23 [32031] total size is 236,033  speedup is 153.77
+2021/03/22 13:22:25 [32041] receiving file list
+2021/03/22 13:22:25 [32044] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 13:22:25 [32044] total size is 0  speedup is 0.00
+2021/03/22 13:23:22 [32225] building file list
+2021/03/22 13:23:22 [32225] <f.st...... abci-utils/rsync.log
+2021/03/22 13:23:22 [32225] <f.st...... abci-utils/completions/request-gpus.fish
+2021/03/22 13:23:22 [32225] sent 2,053 bytes  received 157 bytes  884.00 bytes/sec
+2021/03/22 13:23:22 [32225] total size is 236,564  speedup is 107.04
+2021/03/22 13:23:23 [32233] receiving file list
+2021/03/22 13:23:23 [32236] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 13:23:23 [32236] total size is 0  speedup is 0.00
+2021/03/22 16:58:04 [42456] building file list
+2021/03/22 16:58:04 [42456] <f.st...... abci-utils/rsync.log
+2021/03/22 16:58:04 [42456] <f.st...... abci-utils/setup.sh
+2021/03/22 16:58:04 [42456] <f.st...... abci-utils/Modules/modules.fish
+2021/03/22 16:58:04 [42456] .d..t...... abci-utils/completions/
+2021/03/22 16:58:04 [42456] <f+++++++++ abci-utils/completions/qrsh.fish
+2021/03/22 16:58:04 [42456] sent 2,906 bytes  received 222 bytes  1,251.20 bytes/sec
+2021/03/22 16:58:04 [42456] total size is 237,310  speedup is 75.87
+2021/03/22 16:58:06 [42459] receiving file list
+2021/03/22 16:58:06 [42462] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 16:58:06 [42462] total size is 0  speedup is 0.00
+2021/03/22 16:59:54 [42579] building file list
+2021/03/22 16:59:54 [42579] <f.st...... abci-utils/rsync.log
+2021/03/22 16:59:54 [42579] <f.st...... abci-utils/completions/qrsh.fish
+2021/03/22 16:59:54 [42579] sent 1,938 bytes  received 169 bytes  842.80 bytes/sec
+2021/03/22 16:59:54 [42579] total size is 238,026  speedup is 112.97
+2021/03/22 16:59:56 [42582] receiving file list
+2021/03/22 16:59:56 [42585] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 16:59:56 [42585] total size is 0  speedup is 0.00
+2021/03/22 17:02:48 [42789] building file list
+2021/03/22 17:02:48 [42789] <f.st...... abci-utils/rsync.log
+2021/03/22 17:02:48 [42789] <f.st...... abci-utils/setup.sh
+2021/03/22 17:02:48 [42789] <f.st...... abci-utils/completions/qrsh.fish
+2021/03/22 17:02:48 [42789] sent 2,001 bytes  received 200 bytes  880.40 bytes/sec
+2021/03/22 17:02:48 [42789] total size is 238,545  speedup is 108.38
+2021/03/22 17:02:50 [42792] receiving file list
+2021/03/22 17:02:50 [42795] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 17:02:50 [42795] total size is 0  speedup is 0.00
+2021/03/22 17:03:16 [42838] building file list
+2021/03/22 17:03:16 [42838] <f.st...... abci-utils/rsync.log
+2021/03/22 17:03:16 [42838] <f.st...... abci-utils/completions/qrsh.fish
+2021/03/22 17:03:17 [42838] sent 1,650 bytes  received 181 bytes  732.40 bytes/sec
+2021/03/22 17:03:17 [42838] total size is 239,124  speedup is 130.60
+2021/03/22 17:03:18 [42846] receiving file list
+2021/03/22 17:03:18 [42849] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 17:03:18 [42849] total size is 0  speedup is 0.00
+2021/03/22 17:04:02 [42904] building file list
+2021/03/22 17:04:02 [42904] <f.st...... abci-utils/rsync.log
+2021/03/22 17:04:02 [42904] <f.st...... abci-utils/completions/qrsh.fish
+2021/03/22 17:04:03 [42904] sent 2,174 bytes  received 181 bytes  1,570.00 bytes/sec
+2021/03/22 17:04:03 [42904] total size is 239,648  speedup is 101.76
+2021/03/22 17:04:04 [42911] receiving file list
+2021/03/22 17:04:04 [42914] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 17:04:04 [42914] total size is 0  speedup is 0.00
+2021/03/22 17:04:43 [42984] building file list
+2021/03/22 17:04:43 [42984] <f.st...... abci-utils/rsync.log
+2021/03/22 17:04:43 [42984] <f.st...... abci-utils/completions/qrsh.fish
+2021/03/22 17:04:43 [42984] sent 2,028 bytes  received 187 bytes  632.86 bytes/sec
+2021/03/22 17:04:43 [42984] total size is 240,199  speedup is 108.44
+2021/03/22 17:04:45 [42988] receiving file list
+2021/03/22 17:04:45 [42991] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 17:04:45 [42991] total size is 0  speedup is 0.00
+2021/03/22 17:59:16 [46987] building file list
+2021/03/22 17:59:16 [46987] <f.st...... abci-utils/rsync.log
+2021/03/22 17:59:16 [46987] .d..t...... abci-utils/completions/
+2021/03/22 17:59:16 [46987] <f+++++++++ abci-utils/completions/exec-job.fish
+2021/03/22 17:59:16 [46987] <f+++++++++ abci-utils/completions/qsub.fish
+2021/03/22 17:59:16 [46987] sent 2,108 bytes  received 209 bytes  926.80 bytes/sec
+2021/03/22 17:59:16 [46987] total size is 241,056  speedup is 104.04
+2021/03/22 17:59:18 [46991] receiving file list
+2021/03/22 17:59:18 [47001] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 17:59:18 [47001] total size is 0  speedup is 0.00
+2021/03/22 18:00:21 [47073] building file list
+2021/03/22 18:00:21 [47073] <f.st...... abci-utils/rsync.log
+2021/03/22 18:00:22 [47073] sent 1,641 bytes  received 166 bytes  722.80 bytes/sec
+2021/03/22 18:00:22 [47073] total size is 241,718  speedup is 133.77
+2021/03/22 18:00:23 [47077] receiving file list
+2021/03/22 18:00:23 [47080] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 18:00:23 [47080] total size is 0  speedup is 0.00
+2021/03/22 18:01:17 [47163] building file list
+2021/03/22 18:01:17 [47163] <f.st...... abci-utils/rsync.log
+2021/03/22 18:01:17 [47163] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 18:01:17 [47163] sent 1,670 bytes  received 205 bytes  750.00 bytes/sec
+2021/03/22 18:01:17 [47163] total size is 242,186  speedup is 129.17
+2021/03/22 18:01:19 [47168] receiving file list
+2021/03/22 18:01:19 [47171] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 18:01:19 [47171] total size is 0  speedup is 0.00
+2021/03/22 18:01:52 [47207] building file list
+2021/03/22 18:01:52 [47207] <f.st...... abci-utils/rsync.log
+2021/03/22 18:01:52 [47207] sent 1,915 bytes  received 172 bytes  834.80 bytes/sec
+2021/03/22 18:01:52 [47207] total size is 242,707  speedup is 116.29
+2021/03/22 18:01:54 [47214] receiving file list
+2021/03/22 18:01:54 [47223] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 18:01:54 [47223] total size is 0  speedup is 0.00
+2021/03/22 18:03:44 [47326] building file list
+2021/03/22 18:03:44 [47326] <f.st...... abci-utils/rsync.log
+2021/03/22 18:03:44 [47326] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 18:03:44 [47326] sent 1,942 bytes  received 211 bytes  861.20 bytes/sec
+2021/03/22 18:03:44 [47326] total size is 243,154  speedup is 112.94
+2021/03/22 18:03:46 [47331] receiving file list
+2021/03/22 18:03:46 [47336] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 18:03:46 [47336] total size is 0  speedup is 0.00
+2021/03/22 18:04:02 [47368] building file list
+2021/03/22 18:04:02 [47368] <f.st...... abci-utils/rsync.log
+2021/03/22 18:04:02 [47368] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 18:04:02 [47368] sent 1,769 bytes  received 217 bytes  794.40 bytes/sec
+2021/03/22 18:04:02 [47368] total size is 243,677  speedup is 122.70
+2021/03/22 18:04:04 [47373] receiving file list
+2021/03/22 18:04:04 [47383] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 18:04:04 [47383] total size is 0  speedup is 0.00
+2021/03/22 18:05:43 [47557] building file list
+2021/03/22 18:05:43 [47557] <f.st...... abci-utils/rsync.log
+2021/03/22 18:05:43 [47557] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 18:05:43 [47557] sent 2,398 bytes  received 217 bytes  1,046.00 bytes/sec
+2021/03/22 18:05:43 [47557] total size is 244,306  speedup is 93.42
+2021/03/22 18:05:44 [47561] receiving file list
+2021/03/22 18:05:45 [47566] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 18:05:45 [47566] total size is 0  speedup is 0.00
+2021/03/22 18:07:35 [47650] building file list
+2021/03/22 18:07:35 [47650] <f.st...... abci-utils/rsync.log
+2021/03/22 18:07:35 [47650] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 18:07:35 [47650] sent 2,223 bytes  received 223 bytes  978.40 bytes/sec
+2021/03/22 18:07:35 [47650] total size is 244,829  speedup is 100.09
+2021/03/22 18:07:36 [47653] receiving file list
+2021/03/22 18:07:36 [47657] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 18:07:36 [47657] total size is 0  speedup is 0.00
+2021/03/22 18:07:52 [47690] building file list
+2021/03/22 18:07:52 [47690] <f.st...... abci-utils/rsync.log
+2021/03/22 18:07:52 [47690] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 18:07:52 [47690] sent 2,053 bytes  received 229 bytes  912.80 bytes/sec
+2021/03/22 18:07:52 [47690] total size is 245,353  speedup is 107.52
+2021/03/22 18:07:54 [47694] receiving file list
+2021/03/22 18:07:54 [47697] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 18:07:54 [47697] total size is 0  speedup is 0.00
+2021/03/22 18:13:27 [48024] building file list
+2021/03/22 18:13:27 [48024] <f.st...... abci-utils/rsync.log
+2021/03/22 18:13:27 [48024] <f..t...... abci-utils/completions/node_types.txt
+2021/03/22 18:13:27 [48024] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 18:13:27 [48024] sent 1,907 bytes  received 260 bytes  619.14 bytes/sec
+2021/03/22 18:13:27 [48024] total size is 245,861  speedup is 113.46
+2021/03/22 18:13:33 [48036] receiving file list
+2021/03/22 18:13:33 [48061] sent 77 bytes  received 146 bytes  34.31 bytes/sec
+2021/03/22 18:13:33 [48061] total size is 0  speedup is 0.00
+2021/03/22 18:26:43 [48823] building file list
+2021/03/22 18:26:43 [48823] <f.st...... abci-utils/config.fish
+2021/03/22 18:26:43 [48823] <f.st...... abci-utils/rsync.log
+2021/03/22 18:26:43 [48823] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 18:26:43 [48823] sent 2,861 bytes  received 260 bytes  1,248.40 bytes/sec
+2021/03/22 18:26:43 [48823] total size is 246,487  speedup is 78.98
+2021/03/22 18:26:45 [48830] receiving file list
+2021/03/22 18:26:45 [48834] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 18:26:45 [48834] total size is 0  speedup is 0.00
+2021/03/22 18:47:54 [50018] building file list
+2021/03/22 18:47:54 [50018] <f.st...... abci-utils/rsync.log
+2021/03/22 18:47:54 [50018] <f.st...... abci-utils/completions/exec-job.fish
+2021/03/22 18:47:54 [50018] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 18:47:54 [50018] <f.st...... abci-utils/functions/exec-job.fish
+2021/03/22 18:47:54 [50018] sent 2,827 bytes  received 291 bytes  1,247.20 bytes/sec
+2021/03/22 18:47:54 [50018] total size is 247,057  speedup is 79.24
+2021/03/22 18:47:55 [50023] receiving file list
+2021/03/22 18:47:56 [50034] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 18:47:56 [50034] total size is 0  speedup is 0.00
+2021/03/22 18:48:01 [50049] building file list
+2021/03/22 18:48:01 [50049] <f.st...... abci-utils/rsync.log
+2021/03/22 18:48:01 [50049] <f..t...... abci-utils/functions/exec-job.fish
+2021/03/22 18:48:01 [50049] sent 2,284 bytes  received 247 bytes  1,012.40 bytes/sec
+2021/03/22 18:48:01 [50049] total size is 247,731  speedup is 97.88
+2021/03/22 18:48:02 [50060] receiving file list
+2021/03/22 18:48:02 [50063] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 18:48:02 [50063] total size is 0  speedup is 0.00
+2021/03/22 18:58:37 [50890] building file list
+2021/03/22 18:58:37 [50890] <f.st...... abci-utils/rsync.log
+2021/03/22 18:58:37 [50890] <f.st...... abci-utils/completions/exec-job.fish
+2021/03/22 18:58:37 [50890] sent 2,452 bytes  received 253 bytes  1,082.00 bytes/sec
+2021/03/22 18:58:37 [50890] total size is 248,681  speedup is 91.93
+2021/03/22 18:58:38 [50893] receiving file list
+2021/03/22 18:58:38 [50903] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 18:58:38 [50903] total size is 0  speedup is 0.00
+2021/03/22 19:00:26 [51045] building file list
+2021/03/22 19:00:26 [51045] <f.st...... abci-utils/rsync.log
+2021/03/22 19:00:26 [51045] <f.st...... abci-utils/completions/exec-job.fish
+2021/03/22 19:00:26 [51045] sent 2,238 bytes  received 259 bytes  998.80 bytes/sec
+2021/03/22 19:00:26 [51045] total size is 249,162  speedup is 99.78
+2021/03/22 19:00:27 [51048] receiving file list
+2021/03/22 19:00:28 [51051] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 19:00:28 [51051] total size is 0  speedup is 0.00
+2021/03/22 19:07:28 [51468] building file list
+2021/03/22 19:07:28 [51468] <f.st...... abci-utils/rsync.log
+2021/03/22 19:07:28 [51468] <f.st...... abci-utils/completions/exec-job.fish
+2021/03/22 19:07:28 [51468] <f.st...... abci-utils/completions/qsub.fish
+2021/03/22 19:07:28 [51468] <f.st...... abci-utils/functions/exec-job.fish
+2021/03/22 19:07:28 [51468] sent 2,726 bytes  received 315 bytes  2,027.33 bytes/sec
+2021/03/22 19:07:28 [51468] total size is 249,746  speedup is 82.13
+2021/03/22 19:07:30 [51472] receiving file list
+2021/03/22 19:07:30 [51478] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 19:07:30 [51478] total size is 0  speedup is 0.00
+2021/03/22 19:09:21 [51639] building file list
+2021/03/22 19:09:21 [51639] <f.st...... abci-utils/rsync.log
+2021/03/22 19:09:21 [51639] <f.st...... abci-utils/functions/exec-job.fish
+2021/03/22 19:09:21 [51639] sent 2,498 bytes  received 265 bytes  1,105.20 bytes/sec
+2021/03/22 19:09:21 [51639] total size is 250,438  speedup is 90.64
+2021/03/22 19:09:23 [51642] receiving file list
+2021/03/22 19:09:23 [51653] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 19:09:23 [51653] total size is 0  speedup is 0.00
+2021/03/22 19:10:15 [51716] building file list
+2021/03/22 19:10:15 [51716] <f.st...... abci-utils/rsync.log
+2021/03/22 19:10:15 [51716] sent 1,947 bytes  received 238 bytes  874.00 bytes/sec
+2021/03/22 19:10:15 [51716] total size is 250,962  speedup is 114.86
+2021/03/22 19:10:17 [51719] receiving file list
+2021/03/22 19:10:17 [51722] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 19:10:17 [51722] total size is 0  speedup is 0.00
+2021/03/22 19:11:47 [51819] building file list
+2021/03/22 19:11:47 [51819] <f.st...... abci-utils/rsync.log
+2021/03/22 19:11:47 [51819] <f.st...... abci-utils/completions/exec-job.fish
+2021/03/22 19:11:47 [51819] <f.st...... abci-utils/functions/exec-job.fish
+2021/03/22 19:11:47 [51819] sent 2,373 bytes  received 302 bytes  1,070.00 bytes/sec
+2021/03/22 19:11:47 [51819] total size is 251,410  speedup is 93.99
+2021/03/22 19:11:48 [51829] receiving file list
+2021/03/22 19:11:48 [51833] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 19:11:48 [51833] total size is 0  speedup is 0.00
+2021/03/22 19:12:02 [51868] building file list
+2021/03/22 19:12:02 [51868] <f.st...... abci-utils/rsync.log
+2021/03/22 19:12:02 [51868] <f.st...... abci-utils/functions/exec-job.fish
+2021/03/22 19:12:02 [51868] sent 2,207 bytes  received 283 bytes  996.00 bytes/sec
+2021/03/22 19:12:02 [51868] total size is 252,028  speedup is 101.22
+2021/03/22 19:12:03 [51892] receiving file list
+2021/03/22 19:12:03 [51897] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 19:12:03 [51897] total size is 0  speedup is 0.00
+2021/03/22 19:41:05 [54149] building file list
+2021/03/22 19:41:05 [54149] <f.st...... abci-utils/config.fish
+2021/03/22 19:41:05 [54149] <f.st...... abci-utils/rsync.log
+2021/03/22 19:41:05 [54149] .d..t...... abci-utils/Modules/
+2021/03/22 19:41:05 [54149] <f.st...... abci-utils/Modules/modules.fish
+2021/03/22 19:41:05 [54149] .d..t...... abci-utils/completions/
+2021/03/22 19:41:05 [54149] <f.st...... abci-utils/completions/exec-job.fish
+2021/03/22 19:41:05 [54149] <f+++++++++ abci-utils/completions/module.fish
+2021/03/22 19:41:05 [54149] <f.st...... abci-utils/completions/qrsh.fish
+2021/03/22 19:41:05 [54149] <f.st...... abci-utils/completions/request-gpus.fish
+2021/03/22 19:41:05 [54149] <f+++++++++ abci-utils/completions/resource_types.txt
+2021/03/22 19:41:05 [54149] <f.st...... abci-utils/functions/exec-job.fish
+2021/03/22 19:41:05 [54149] <f.st...... abci-utils/functions/request-gpus.fish
+2021/03/22 19:41:05 [54149] sent 13,376 bytes  received 489 bytes  5,546.00 bytes/sec
+2021/03/22 19:41:05 [54149] total size is 253,249  speedup is 18.27
+2021/03/22 19:41:06 [54159] receiving file list
+2021/03/22 19:41:06 [54163] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 19:41:06 [54163] total size is 0  speedup is 0.00
+2021/03/22 19:43:01 [54255] building file list
+2021/03/22 19:43:01 [54255] <f.st...... abci-utils/rsync.log
+2021/03/22 19:43:01 [54255] sent 2,679 bytes  received 256 bytes  1,174.00 bytes/sec
+2021/03/22 19:43:01 [54255] total size is 254,501  speedup is 86.71
+2021/03/22 19:43:06 [54259] receiving file list
+2021/03/22 19:43:06 [54277] sent 77 bytes  received 146 bytes  40.55 bytes/sec
+2021/03/22 19:43:06 [54277] total size is 0  speedup is 0.00
+2021/03/22 19:46:31 [54464] building file list
+2021/03/22 19:46:31 [54464] <f.st...... abci-utils/rsync.log
+2021/03/22 19:46:31 [54464] <f..t...... abci-utils/completions/exec-job.fish
+2021/03/22 19:46:31 [54464] sent 2,169 bytes  received 301 bytes  988.00 bytes/sec
+2021/03/22 19:46:31 [54464] total size is 254,950  speedup is 103.22
+2021/03/22 19:46:33 [54469] receiving file list
+2021/03/22 19:46:33 [54474] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 19:46:33 [54474] total size is 0  speedup is 0.00
+2021/03/22 19:47:42 [54551] building file list
+2021/03/22 19:47:42 [54551] <f.st...... abci-utils/rsync.log
+2021/03/22 19:47:42 [54551] sent 1,565 bytes  received 274 bytes  735.60 bytes/sec
+2021/03/22 19:47:42 [54551] total size is 255,475  speedup is 138.92
+2021/03/22 19:47:44 [54554] receiving file list
+2021/03/22 19:47:44 [54558] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 19:47:44 [54558] total size is 0  speedup is 0.00
+2021/03/22 19:48:29 [54622] building file list
+2021/03/22 19:48:29 [54622] <f.st...... abci-utils/rsync.log
+2021/03/22 19:48:29 [54622] <f.st...... abci-utils/completions/exec-job.fish
+2021/03/22 19:48:29 [54622] sent 2,447 bytes  received 307 bytes  786.86 bytes/sec
+2021/03/22 19:48:29 [54622] total size is 255,924  speedup is 92.93
+2021/03/22 19:48:31 [54647] receiving file list
+2021/03/22 19:48:31 [54651] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 19:48:31 [54651] total size is 0  speedup is 0.00
+2021/03/22 19:51:17 [54861] building file list
+2021/03/22 19:51:17 [54861] <f.st...... abci-utils/config.fish
+2021/03/22 19:51:17 [54861] <f.st...... abci-utils/rsync.log
+2021/03/22 19:51:18 [54861] sent 2,010 bytes  received 305 bytes  1,543.33 bytes/sec
+2021/03/22 19:51:18 [54861] total size is 256,506  speedup is 110.80
+2021/03/22 19:51:19 [54865] receiving file list
+2021/03/22 19:51:19 [54869] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 19:51:19 [54869] total size is 0  speedup is 0.00
+2021/03/22 20:36:42 [58825] building file list
+2021/03/22 20:36:42 [58825] <f.st...... abci-utils/README.md
+2021/03/22 20:36:42 [58825] <f.st...... abci-utils/config.fish
+2021/03/22 20:36:42 [58825] <f.st...... abci-utils/rsync.log
+2021/03/22 20:36:42 [58825] <f.st...... abci-utils/setup.sh
+2021/03/22 20:36:42 [58825] sent 5,388 bytes  received 373 bytes  1,646.00 bytes/sec
+2021/03/22 20:36:42 [58825] total size is 257,917  speedup is 44.77
+2021/03/22 20:36:43 [58828] receiving file list
+2021/03/22 20:36:43 [58832] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 20:36:43 [58832] total size is 0  speedup is 0.00
+2021/03/22 20:37:00 [58861] building file list
+2021/03/22 20:37:00 [58861] <f.st...... abci-utils/rsync.log
+2021/03/22 20:37:00 [58861] sent 1,598 bytes  received 292 bytes  756.00 bytes/sec
+2021/03/22 20:37:00 [58861] total size is 258,551  speedup is 136.80
+2021/03/22 20:37:01 [58883] receiving file list
+2021/03/22 20:37:01 [58887] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 20:37:01 [58887] total size is 0  speedup is 0.00
+2021/03/22 20:37:36 [58968] building file list
+2021/03/22 20:37:36 [58968] <f.st...... abci-utils/config.fish
+2021/03/22 20:37:36 [58968] <f.st...... abci-utils/rsync.log
+2021/03/22 20:37:36 [58968] sent 2,524 bytes  received 317 bytes  1,136.40 bytes/sec
+2021/03/22 20:37:36 [58968] total size is 259,002  speedup is 91.17
+2021/03/22 20:37:38 [58977] receiving file list
+2021/03/22 20:37:38 [58981] sent 77 bytes  received 146 bytes  89.20 bytes/sec
+2021/03/22 20:37:38 [58981] total size is 0  speedup is 0.00
+2021/03/22 20:44:49 [59412] building file list
+2021/03/22 20:44:49 [59412] <f.st...... abci-utils/config.fish
+2021/03/22 20:44:49 [59412] <f.st...... abci-utils/rsync.log
+2021/03/22 20:44:49 [59412] sent 2,339 bytes  received 323 bytes  760.57 bytes/sec
+2021/03/22 20:44:49 [59412] total size is 259,512  speedup is 97.49
+2021/03/22 20:44:50 [59425] receiving file list
+2021/03/22 20:44:50 [59428] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 20:44:50 [59428] total size is 0  speedup is 0.00
+2021/03/22 20:45:13 [59489] building file list
+2021/03/22 20:45:13 [59489] <f.st...... abci-utils/rsync.log
+2021/03/22 20:45:14 [59489] sent 1,678 bytes  received 304 bytes  792.80 bytes/sec
+2021/03/22 20:45:14 [59489] total size is 260,023  speedup is 131.19
+2021/03/22 20:45:15 [59493] receiving file list
+2021/03/22 20:45:15 [59496] sent 77 bytes  received 146 bytes  148.67 bytes/sec
+2021/03/22 20:45:15 [59496] total size is 0  speedup is 0.00

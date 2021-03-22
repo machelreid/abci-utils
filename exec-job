@@ -1,6 +1,0 @@
-#!/bin/bash
-file=$1
-nodes=$2
-mkdir -p $HOME/jobs/logs/$(basename $file)
-cd $HOME/jobs/logs/$(basename $file)
-qsub -g $GROUP -l rt_F=$nodes $HOME/jobs/$(basename $file) 
