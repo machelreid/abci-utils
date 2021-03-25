@@ -11,6 +11,8 @@ function exec-job -d "Execute the script in ~/jobs with the provided name and su
     # set job
     set options $options (fish_opt -s j -l job --required-val)
 
+    argparse $options -- $argv
+
     # create dir for logs and go there
     mkdir -p $HOME/jobs/logs/(basename $_flag_job)
     cd $HOME/jobs/logs/(basename $_flag_job)

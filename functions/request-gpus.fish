@@ -1,4 +1,4 @@
-function request-gpus -d "Request an interactive session"
+function request-gpus -d "Request an interactive GPU session"
    # set group
     set -l options (fish_opt -s g -l group --required-val)
     
@@ -7,9 +7,11 @@ function request-gpus -d "Request an interactive session"
 
     # set time
     set options $options (fish_opt -s t -l time --required-val)
-    
-    echo "Requested $_flag_resource, Accessing nodes"
-    echo "Nodes accessed"
+
+    argparse $options -- $argv
+
+    echo "Running qrsh -g $_flag_group -l $_flag_resource=1 -l h_rt=$_flag_time -pty yes"
+
     qrsh -g "$_flag_group" -l "$_flag_resource"=1 -l h_rt="$_flag_time" -pty yes
 end
 
