@@ -41,6 +41,8 @@ Command which shows the amount of available nodes (rt_F's - 4 V100 16GB GPUs) on
 ❯ avail_node_count
 73
 ```
+### 6\. A100 stuff
+- If using NCCL be sure to use `USE_SYSTEM_NCCL=1` and `NCCL_SOCKET_IFNAME=bond0`
 ### Important Tips (that they don't tell you)
 1. If you are saving checkpoints when running a job, make sure to run a `watch ls -lah` (in tmux) in that directory. Sometimes, if you don't do this the checkpoint may take forever to finish saving (presumably being put as a lower priority by the system) and you will end up wasting a lot of points (speaking from experience). 
 
